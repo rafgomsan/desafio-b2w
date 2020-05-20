@@ -1,0 +1,518 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 165 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 427919 0 0
+ciMethod java/lang/Object hashCode ()I 3073 1 384 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2273 1 9122 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1137 1 142 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 3073 1 12995 0 0
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2065 1 24751 0 160
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2129 1 10040 0 0
+ciMethod java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 9 1 6661 0 256
+ciMethod java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2121 1 19242 0 736
+ciMethod java/lang/invoke/MethodType equals (Ljava/lang/Object;)Z 3081 1 4314 0 0
+ciMethod java/lang/invoke/MethodType equals (Ljava/lang/invoke/MethodType;)Z 3001 1 3697 0 0
+ciMethod java/lang/invoke/MethodType hashCode ()I 2065 4281 5385 0 320
+ciMethod sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/misc/VM addFinalRefCount (I)V 4097 1 12660 0 0
+ciMethod java/util/Arrays equals ([Ljava/lang/Object;[Ljava/lang/Object;)Z 3009 10257 4222 0 0
+ciMethodData java/lang/Object <init> ()V 2 427919 orig 264 88 131 109 100 0 0 0 0 128 4 43 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 121 44 52 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/ConcurrentMap remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap spread (I)I 2049 1 19199 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2201 1 30655 0 64
+ciMethod java/util/concurrent/ConcurrentHashMap setTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;)V 3073 1 1602 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2065 113 5425 0 1760
+ciMethod java/util/concurrent/ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 2081 1 517 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap replaceNode (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2281 801 592 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap addCount (JI)V 1881 65 6472 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap helpTransfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)[Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$Node find (ILjava/lang/Object;)Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 1 0 -1
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 24751 orig 264 88 131 109 100 0 0 0 0 56 131 45 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 105 253 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0x5fad 0xb0007 0x3dfe 0x38 0x21ae 0x110003 0x21ae 0x18 oops 0
+ciMethodData java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2 19242 orig 264 88 131 109 100 0 0 0 0 232 177 45 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 9 81 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x18a 0x20 0x4897 0x110002 0x18b oops 0
+ciMethodData java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 2 6661 orig 264 88 131 109 100 0 0 0 0 32 177 45 21 0 0 0 0 0 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 33 208 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 184 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 23 0x60007 0x9 0xb8 0x19f8 0x110007 0x19ca 0x38 0x32 0x150003 0x32 0x18 0x330004 0xfffffffffffffebc 0x22e1580 0x18ba 0x1839c4b0 0x7b 0x360007 0x144 0x30 0x18ba 0x3a0002 0x18ba oops 2 13 java/lang/ref/Finalizer 15 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethodData java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2 30655 orig 264 88 131 109 100 0 0 0 0 0 242 68 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 1 0 0 97 181 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 14 0 0 0 0 0 data 12 0xe0005 0x73 0x0 0x0 0x0 0x0 0x110104 0x0 0x1764adc0 0x540 0x1827d9c0 0x4f78 oops 2 8 java/util/concurrent/ConcurrentHashMap$ForwardingNode 10 java/util/concurrent/ConcurrentHashMap$Node
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet get (Ljava/lang/Object;)Ljava/lang/Object; 2073 1 5380 0 -1
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet expungeStaleElements ()V 2097 1 6955 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;)V 2073 1 5380 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry equals (Ljava/lang/Object;)Z 3121 1 3696 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry hashCode ()I 1041 1 130 0 0
+ciMethodData java/util/concurrent/ConcurrentHashMap spread (I)I 2 19199 orig 264 88 131 109 100 0 0 0 0 208 238 68 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 249 79 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/invoke/MethodType hashCode ()I 2 11096 orig 264 88 131 109 100 0 0 0 0 32 172 49 21 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23 2 0 0 57 160 0 0 9 74 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 19 0x60005 0x0 0x22e0480 0x1407 0x0 0x0 0x190007 0x1407 0x68 0x2941 0x280005 0x0 0x22e0480 0x2941 0x0 0x0 0x300003 0x2941 0xffffffffffffffb0 oops 2 2 java/lang/Class 12 java/lang/Class
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet expungeStaleElements ()V 2 6955 orig 264 88 131 109 100 0 0 0 0 96 42 87 21 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 41 209 0 0 81 11 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 19 0x40005 0x0 0x22e1610 0x1b8f 0x0 0x0 0x90007 0x1a25 0x68 0x16a 0x110005 0x0 0x1839c400 0x16a 0x0 0x0 0x170003 0x16a 0xffffffffffffff80 oops 2 2 java/lang/ref/ReferenceQueue 12 java/util/concurrent/ConcurrentHashMap
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2 12995 orig 264 88 131 109 100 0 0 0 0 136 130 45 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 25 138 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x3143 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 5425 orig 264 88 131 109 100 0 0 0 0 88 249 68 21 0 0 0 0 8 4 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 121 161 0 0 1 48 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 36 0 2 0 0 0 184 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 87 0x10005 0x4ab 0x1839c4b0 0xd88 0x15c43d30 0x1fc 0x40002 0x142f 0xf0007 0x17 0x278 0x1418 0x170007 0x0 0x258 0x1418 0x220002 0x1418 0x270007 0x3b8 0x228 0x1060 0x330007 0x3fd 0xb0 0xc63 0x3e0007 0x20a 0x90 0xa59 0x430007 0x0 0xf8 0xa59 0x490005 0x1a3 0x1839c4b0 0x812 0x15c43d30 0xa4 0x4c0007 0x0 0xa8 0xa59 0x560007 0x3fd 0x88 0x0 0x5d0005 0x0 0x0 0x0 0x0 0x0 0x630007 0x0 0x38 0x0 0x6b0003 0x0 0x18 0x760007 0x243 0xd0 0x2b2 0x7f0007 0xf8 0xffffffffffffffe0 0x1ba 0x8a0007 0x13 0x90 0x1a7 0x8f0007 0x0 0xffffffffffffffa0 0x1a7 0x950005 0x15 0x1839c4b0 0x18f 0x1c5350b0 0x3 0x980007 0x0 0xffffffffffffff50 0x1a7 oops 6 2 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 4 java/lang/invoke/MemberName 36 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 38 java/lang/invoke/MemberName 79 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 81 sun/util/locale/BaseLocale$Key
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet get (Ljava/lang/Object;)Ljava/lang/Object; 2 5380 orig 264 88 131 109 100 0 0 0 0 216 40 87 21 0 0 0 0 112 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 9 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 21 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 36 0x10007 0x1401 0x30 0x0 0x80002 0x0 0xd0002 0x1401 0x190002 0x1401 0x1c0005 0x0 0x1839c400 0x1401 0x0 0x0 0x210104 0x0 0x1839c4b0 0xe38 0x0 0x0 0x260007 0x5c9 0x70 0xe38 0x2a0005 0x0 0x1839c4b0 0xe38 0x0 0x0 0x2f0007 0x0 0x20 0xe38 oops 3 12 java/util/concurrent/ConcurrentHashMap 18 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 28 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;)V 2 5380 orig 264 88 131 109 100 0 0 0 0 104 130 87 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 9 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x1401 0x70005 0x0 0x15c43ee0 0x1401 0x0 0x0 oops 1 4 java/lang/invoke/MethodType
+ciMethodData java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2 10040 orig 264 88 131 109 100 0 0 0 0 232 137 45 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 113 49 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x262e oops 0
+ciMethodData java/lang/invoke/MethodType equals (Ljava/lang/Object;)Z 2 4314 orig 264 88 131 109 100 0 0 0 0 168 170 49 21 0 0 0 0 56 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 201 122 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 19 0 2 0 0 0 232 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 29 0x20007 0x25d 0xd0 0xcfc 0x60004 0x0 0x15c43ee0 0xcfc 0x0 0x0 0x90007 0x0 0x98 0xcfc 0xe0004 0x0 0x15c43ee0 0xcfc 0x0 0x0 0x110002 0xcfc 0x140007 0x0 0x38 0xcfc 0x180003 0xf59 0x18 oops 2 6 java/lang/invoke/MethodType 16 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodType equals (Ljava/lang/invoke/MethodType;)Z 2 3697 orig 264 88 131 109 100 0 0 0 0 88 171 49 21 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119 1 0 0 209 103 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 104 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 13 0x80007 0x0 0x68 0xcfa 0x130002 0xcfa 0x160007 0x0 0x38 0xcfa 0x1a0003 0xcfa 0x18 oops 0
+ciMethodData java/util/Arrays equals ([Ljava/lang/Object;[Ljava/lang/Object;)Z 2 22403 orig 264 88 131 109 100 0 0 0 0 24 5 61 21 0 0 0 0 176 2 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 5 0 0 49 120 0 0 9 148 2 0 76 13 0 0 63 64 0 0 2 0 0 0 1 0 23 0 2 0 0 0 96 1 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 44 0x20007 0xc50 0x20 0x2b6 0x80007 0x0 0x40 0xc50 0xc0007 0xc50 0x20 0x0 0x170007 0xbfe 0x20 0x52 0x200007 0xbfc 0xe0 0x5283 0x2f0007 0x5283 0x58 0x0 0x340007 0x0 0x88 0x0 0x370003 0x0 0x68 0x3e0005 0x4392 0x22e0480 0xeec 0x19373e50 0x5 0x41e007 0x5281 0x20 0x3 0x490003 0x5281 0xffffffffffffff38 oops 2 33 java/lang/Class 35 java/lang/invoke/LambdaForm$Name
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry equals (Ljava/lang/Object;)Z 2 3696 orig 264 88 131 109 100 0 0 0 0 48 131 87 21 0 0 0 0 240 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 1 0 0 81 103 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 13 0 2 0 0 0 160 1 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 52 0x10004 0x0 0x1839c4b0 0xcea 0x0 0x0 0x40007 0x0 0x170 0xcea 0x80004 0x0 0x1839c4b0 0xcea 0x0 0x0 0xb0005 0x0 0x1839c4b0 0xcea 0x0 0x0 0x100005 0x0 0x1839c4b0 0xcea 0x0 0x0 0x150007 0x0 0x40 0xcea 0x190007 0xcea 0x70 0x0 0x1e0007 0x0 0x38 0x0 0x220003 0x0 0x60 0x260003 0x0 0x48 0x2b0005 0x0 0x15c43ee0 0xcea 0x0 0x0 oops 5 2 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 12 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 18 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 24 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 48 java/lang/invoke/MethodType
+ciMethodData sun/misc/VM addFinalRefCount (I)V 2 12660 orig 264 88 131 109 100 0 0 0 0 160 254 57 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 123 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 14 0 0 0 0 0 data 4 0xe0007 0x2c9d 0x20 0x2d7 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 1 517 orig 264 88 131 109 100 0 0 0 0 32 255 68 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 9 8 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1839c400 0x101 0x0 0x0 oops 1 2 java/util/concurrent/ConcurrentHashMap
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$605
+instanceKlass org/springframework/data/mongodb/core/geo/GeoJsonGeometryCollection
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$604
+instanceKlass org/springframework/data/mongodb/core/geo/GeoJsonMultiPolygon
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$603
+instanceKlass org/springframework/data/geo/Polygon
+instanceKlass org/springframework/data/geo/Shape
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$602
+instanceKlass org/springframework/data/mongodb/core/geo/GeoJsonMultiLineString
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$601
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$600
+instanceKlass org/springframework/data/mongodb/core/geo/GeoJsonMultiPoint
+instanceKlass sun/text/normalizer/ReplaceableString
+instanceKlass sun/text/normalizer/Replaceable
+instanceKlass sun/text/normalizer/UCharacterIterator
+instanceKlass sun/text/normalizer/NormalizerBase$QuickCheckResult
+instanceKlass sun/text/normalizer/NormalizerBase
+instanceKlass sun/text/normalizer/NormalizerBase$Mode
+instanceKlass sun/text/CollatorUtilities
+instanceKlass java/text/CollationElementIterator
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters$$Lambda$599
+instanceKlass org/springframework/data/geo/Point
+instanceKlass org/springframework/data/mongodb/core/geo/GeoJson
+instanceKlass sun/text/normalizer/UTF16
+instanceKlass sun/text/ComposedCharIter
+instanceKlass java/text/EntryPair
+instanceKlass java/text/PatternEntry
+instanceKlass java/text/PatternEntry$Parser
+instanceKlass java/text/MergeCollation
+instanceKlass sun/text/normalizer/NormalizerImpl$DecomposeArgs
+instanceKlass sun/text/normalizer/UnicodeSet
+instanceKlass sun/text/normalizer/UnicodeMatcher
+instanceKlass sun/text/normalizer/CharTrie$FriendAgent
+instanceKlass sun/text/normalizer/Trie
+instanceKlass sun/text/normalizer/NormalizerImpl$AuxTrieImpl
+instanceKlass sun/text/normalizer/NormalizerImpl$NormTrieImpl
+instanceKlass sun/text/normalizer/NormalizerImpl$FCDTrieImpl
+instanceKlass sun/text/normalizer/Trie$DataManipulate
+instanceKlass sun/text/normalizer/ICUBinary
+instanceKlass sun/text/normalizer/NormalizerDataReader
+instanceKlass sun/text/normalizer/ICUBinary$Authenticate
+instanceKlass sun/text/normalizer/ICUData
+instanceKlass sun/text/normalizer/NormalizerImpl
+instanceKlass sun/text/UCompactIntArray
+instanceKlass sun/text/IntHashtable
+instanceKlass java/text/RBCollationTables$BuildAPI
+instanceKlass java/text/RBTableBuilder
+instanceKlass java/text/RBCollationTables
+instanceKlass java/util/Collections$UnmodifiableList$1
+instanceKlass java/text/Collator
+instanceKlass org/springframework/data/mongodb/core/convert/GeoConverters
+instanceKlass org/springframework/data/mongodb/core/convert/MongoConverters$$Lambda$598
+instanceKlass org/springframework/data/convert/DefaultConverterBuilder
+instanceKlass org/springframework/data/convert/ConverterBuilder$ConverterAware
+instanceKlass org/springframework/data/convert/ConverterBuilder$WritingConverterBuilder
+instanceKlass org/springframework/data/convert/ConverterBuilder$WritingConverterAware
+instanceKlass org/springframework/data/convert/ConverterBuilder$ReadingConverterBuilder
+instanceKlass org/springframework/data/convert/ConverterBuilder$ReadingConverterAware
+instanceKlass org/springframework/data/convert/ConverterBuilder
+instanceKlass org/springframework/data/mongodb/core/convert/MongoConverters$$Lambda$597
+instanceKlass org/springframework/data/mongodb/core/convert/MongoConverters
+instanceKlass org/springframework/data/convert/ThreeTenBackPortConverters
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass com/mongodb/event/ServerDescriptionChangedEvent
+instanceKlass com/mongodb/internal/connection/ChangeEvent
+instanceKlass com/mongodb/TagSet$1
+instanceKlass com/mongodb/event/ServerHeartbeatSucceededEvent
+instanceKlass com/mongodb/internal/connection/ClusterClockAdvancingSessionContext
+instanceKlass com/mongodb/event/ServerHeartbeatStartedEvent
+instanceKlass com/mongodb/internal/connection/DescriptionHelper
+instanceKlass org/bson/BsonElement
+instanceKlass org/springframework/data/convert/Jsr310Converters
+instanceKlass com/mongodb/internal/connection/ReplyMessage
+instanceKlass org/bson/codecs/DecoderContext$Builder
+instanceKlass org/bson/codecs/DecoderContext
+instanceKlass org/springframework/data/convert/JodaTimeConverters
+instanceKlass org/bson/AbstractBsonReader$1
+instanceKlass org/bson/BsonBinaryReader$1
+instanceKlass org/bson/io/BsonInputMark
+instanceKlass org/bson/io/ByteBufferBsonInput
+instanceKlass org/bson/BsonReaderMark
+instanceKlass org/bson/AbstractBsonReader$Context
+instanceKlass org/bson/AbstractBsonReader
+instanceKlass sun/reflect/generics/tree/BooleanSignature
+instanceKlass org/bson/io/BsonInput
+instanceKlass com/mongodb/internal/connection/ProtocolHelper
+instanceKlass com/mongodb/internal/connection/ReplyHeader
+instanceKlass com/mongodb/internal/connection/ResponseBuffers
+instanceKlass com/mongodb/internal/connection/MessageHeader
+instanceKlass com/mongodb/internal/connection/NoOpCommandEventSender
+instanceKlass com/mongodb/internal/connection/RequestMessage$EncodingMetadata
+instanceKlass com/mongodb/internal/connection/ByteBufferBsonOutput$BufferPositionPair
+instanceKlass org/bson/ByteBufNIO
+instanceKlass com/mongodb/internal/connection/MessageSettings$Builder
+instanceKlass com/mongodb/internal/connection/MessageSettings
+instanceKlass org/springframework/data/mongodb/core/MongoExceptionTranslator
+instanceKlass com/mongodb/internal/validator/NoOpFieldNameValidator
+instanceKlass com/mongodb/MongoNamespace
+instanceKlass com/mongodb/internal/connection/RequestMessage
+instanceKlass com/mongodb/internal/connection/NoOpSessionContext
+instanceKlass com/mongodb/internal/connection/CommandHelper
+instanceKlass com/mongodb/internal/connection/SocketStreamHelper
+instanceKlass com/mongodb/internal/connection/SocketStream
+instanceKlass com/mongodb/ClientSessionOptions
+instanceKlass com/mongodb/connection/ConnectionId
+instanceKlass com/mongodb/internal/binding/ClusterAwareReadWriteBinding
+instanceKlass com/mongodb/internal/binding/ReadWriteBinding
+instanceKlass com/mongodb/connection/ConnectionDescription
+instanceKlass com/mongodb/internal/binding/WriteBinding
+instanceKlass com/mongodb/internal/binding/ReadBinding
+instanceKlass com/mongodb/internal/connection/InternalStreamConnectionInitializer
+instanceKlass com/mongodb/client/internal/MongoClientDelegate$DelegateOperationExecutor
+instanceKlass com/mongodb/internal/connection/CommandEventSender
+instanceKlass com/mongodb/internal/session/ServerSessionPool$ServerSessionItemFactory
+instanceKlass com/mongodb/internal/session/ServerSessionPool$1
+instanceKlass com/mongodb/internal/session/SessionContext
+instanceKlass com/mongodb/session/ServerSession
+instanceKlass com/mongodb/internal/session/ServerSessionPool$Clock
+instanceKlass com/mongodb/internal/session/ServerSessionPool
+instanceKlass org/bson/internal/OverridableUuidRepresentationCodecRegistry
+instanceKlass org/bson/internal/CodecRegistryHelper
+instanceKlass com/mongodb/internal/connection/Compressor
+instanceKlass com/mongodb/client/ClientSession
+instanceKlass com/mongodb/session/ClientSession
+instanceKlass com/mongodb/connection/AsyncCompletionHandler
+instanceKlass com/mongodb/client/internal/OperationExecutor
+instanceKlass com/mongodb/internal/connection/InternalStreamConnection
+instanceKlass com/mongodb/client/internal/MongoClientDelegate
+instanceKlass com/mongodb/event/ClusterDescriptionChangedEvent
+instanceKlass com/mongodb/internal/connection/ExponentiallyWeightedMovingAverage
+instanceKlass com/mongodb/internal/connection/DefaultServerMonitor$ServerMonitorRunnable
+instanceKlass com/mongodb/internal/connection/DefaultServerMonitor
+instanceKlass com/mongodb/internal/connection/Time
+instanceKlass com/mongodb/TagSet
+instanceKlass com/mongodb/connection/ServerDescription$Builder
+instanceKlass com/mongodb/connection/ServerDescription
+instanceKlass com/mongodb/event/ServerOpeningEvent
+instanceKlass com/mongodb/internal/connection/DefaultServer$DefaultServerStateListener
+instanceKlass com/mongodb/internal/connection/AsyncConnection
+instanceKlass com/mongodb/internal/connection/Connection
+instanceKlass com/mongodb/internal/binding/ReferenceCounted
+instanceKlass com/mongodb/internal/connection/DefaultConnectionFactory
+instanceKlass com/mongodb/internal/connection/ProtocolExecutor
+instanceKlass com/mongodb/internal/connection/ChangeListener
+instanceKlass com/mongodb/internal/connection/DefaultServer
+instanceKlass com/mongodb/internal/connection/ServerMonitor
+instanceKlass com/mongodb/internal/connection/DefaultServerMonitorFactory
+instanceKlass com/mongodb/event/ConnectionPoolOpenedEvent
+instanceKlass com/mongodb/event/ConnectionPoolCreatedEvent
+instanceKlass com/mongodb/internal/connection/DefaultConnectionPool$UsageTrackingInternalConnectionItemFactory
+instanceKlass org/bson/codecs/EncoderContext$Builder
+instanceKlass org/bson/codecs/EncoderContext
+instanceKlass org/bson/NoOpFieldNameValidator
+instanceKlass org/bson/BsonBinaryWriterSettings
+instanceKlass org/bson/BsonWriterSettings
+instanceKlass org/bson/AbstractBsonWriter$Context
+instanceKlass org/bson/FieldNameValidator
+instanceKlass org/bson/AbstractBsonWriter
+instanceKlass org/bson/codecs/BsonArrayCodec
+instanceKlass org/bson/codecs/BsonJavaScriptWithScopeCodec
+instanceKlass org/bson/internal/LazyCodec
+instanceKlass org/bson/internal/Optional
+instanceKlass org/bson/internal/ChildCodecRegistry
+instanceKlass org/bson/codecs/BsonTypeCodecMap
+instanceKlass org/bson/codecs/BsonDocumentCodec
+instanceKlass org/bson/BsonDocument$1
+instanceKlass org/bson/io/BsonOutput
+instanceKlass com/mongodb/internal/connection/ClientMetadataHelper
+instanceKlass com/mongodb/internal/connection/Authenticator
+instanceKlass com/mongodb/internal/connection/InternalConnectionInitializer
+instanceKlass com/mongodb/internal/connection/InternalStreamConnectionFactory
+instanceKlass com/mongodb/connection/ServerId
+instanceKlass com/mongodb/internal/async/SingleResultCallback
+instanceKlass com/mongodb/internal/connection/InternalConnection
+instanceKlass com/mongodb/internal/connection/DefaultConnectionPool
+instanceKlass com/mongodb/internal/connection/SingleServerCluster$DefaultServerStateListener
+instanceKlass com/mongodb/connection/ClusterDescription
+instanceKlass com/mongodb/event/ClusterOpeningEvent
+instanceKlass com/mongodb/internal/connection/ClusterClock
+instanceKlass com/mongodb/internal/connection/BaseCluster
+instanceKlass com/mongodb/internal/connection/DnsSrvRecordMonitor
+instanceKlass com/mongodb/internal/dns/DnsResolver
+instanceKlass com/mongodb/internal/connection/DefaultDnsSrvRecordMonitorFactory
+instanceKlass com/mongodb/internal/connection/ClusterableServer
+instanceKlass com/mongodb/internal/connection/Server
+instanceKlass com/mongodb/internal/connection/ConnectionFactory
+instanceKlass com/mongodb/internal/connection/ServerMonitorFactory
+instanceKlass com/mongodb/internal/connection/ConnectionPool
+instanceKlass com/mongodb/internal/connection/InternalConnectionFactory
+instanceKlass com/mongodb/internal/connection/DefaultClusterableServerFactory
+instanceKlass com/mongodb/connection/ClusterId
+instanceKlass com/mongodb/internal/event/EventListenerHelper$4
+instanceKlass com/mongodb/internal/event/EventListenerHelper$3
+instanceKlass com/mongodb/internal/event/EventListenerHelper$2
+instanceKlass com/mongodb/internal/event/EventListenerHelper$1
+instanceKlass com/mongodb/event/CommandListener
+instanceKlass com/mongodb/event/ConnectionPoolListener
+instanceKlass com/mongodb/event/ClusterListener
+instanceKlass com/mongodb/event/ServerMonitorListener
+instanceKlass com/mongodb/event/ServerListener
+instanceKlass com/mongodb/internal/event/EventListenerHelper
+instanceKlass java/util/concurrent/Semaphore
+instanceKlass com/mongodb/internal/connection/ConcurrentLinkedDeque$RemovalReportingIterator
+instanceKlass com/mongodb/internal/connection/PowerOfTwoBufferPool$1
+instanceKlass com/mongodb/internal/connection/ConcurrentPool
+instanceKlass com/mongodb/internal/connection/Pool
+instanceKlass org/bson/ByteBuf
+instanceKlass com/mongodb/internal/connection/ConcurrentPool$ItemFactory
+instanceKlass com/mongodb/internal/connection/PowerOfTwoBufferPool
+instanceKlass javax/net/SocketFactory
+instanceKlass com/mongodb/connection/Stream
+instanceKlass com/mongodb/connection/BufferProvider
+instanceKlass com/mongodb/connection/SocketStreamFactory
+instanceKlass com/mongodb/internal/connection/Cluster
+instanceKlass com/mongodb/internal/connection/DnsSrvRecordMonitorFactory
+instanceKlass com/mongodb/internal/connection/ClusterableServerFactory
+instanceKlass com/mongodb/internal/connection/DefaultClusterFactory
+instanceKlass com/mongodb/internal/connection/ClusterFactory
+instanceKlass com/mongodb/Function
+instanceKlass com/mongodb/client/ListDatabasesIterable
+instanceKlass com/mongodb/client/ChangeStreamIterable
+instanceKlass com/mongodb/connection/StreamFactory
+instanceKlass com/mongodb/client/MongoDatabase
+instanceKlass com/mongodb/client/internal/MongoClientImpl
+instanceKlass com/mongodb/MongoDriverInformation$Builder
+instanceKlass com/mongodb/internal/selector/LatencyMinimizingServerSelector
+instanceKlass com/mongodb/internal/connection/ServerAddressHelper
+instanceKlass com/mongodb/diagnostics/logging/SLF4JLogger
+instanceKlass com/mongodb/diagnostics/logging/Logger
+instanceKlass com/mongodb/diagnostics/logging/Loggers
+instanceKlass com/mongodb/connection/SslSettings$Builder
+instanceKlass com/mongodb/connection/SslSettings
+instanceKlass com/mongodb/connection/ServerSettings$Builder
+instanceKlass com/mongodb/connection/ServerSettings
+instanceKlass com/mongodb/connection/ConnectionPoolSettings$Builder
+instanceKlass com/mongodb/connection/ConnectionPoolSettings
+instanceKlass com/mongodb/connection/SocketSettings$Builder
+instanceKlass com/mongodb/connection/SocketSettings
+instanceKlass com/mongodb/ServerAddress
+instanceKlass com/mongodb/selector/ServerSelector
+instanceKlass com/mongodb/connection/ClusterSettings$Builder
+instanceKlass com/mongodb/connection/ClusterSettings
+instanceKlass com/mongodb/ReadConcern
+instanceKlass com/mongodb/WriteConcern
+instanceKlass com/mongodb/ReadPreference
+instanceKlass com/mongodb/MongoClientSettings$Builder
+instanceKlass org/bson/codecs/BsonCodecProvider
+instanceKlass org/bson/codecs/jsr310/DateTimeBasedCodec
+instanceKlass org/bson/codecs/jsr310/Jsr310CodecProvider
+instanceKlass com/mongodb/client/gridfs/codecs/GridFSFileCodecProvider
+instanceKlass com/mongodb/client/model/geojson/codecs/GeoJsonCodecProvider
+instanceKlass org/bson/codecs/MapCodecProvider
+instanceKlass org/bson/codecs/IterableCodecProvider
+instanceKlass com/mongodb/DocumentToDBRefTransformer
+instanceKlass org/bson/codecs/DocumentCodecProvider
+instanceKlass org/bson/assertions/Assertions
+instanceKlass org/bson/internal/CodecCache
+instanceKlass org/bson/internal/ProvidersCodecRegistry
+instanceKlass org/bson/internal/CycleDetectingCodecRegistry
+instanceKlass org/bson/codecs/configuration/CodecRegistry
+instanceKlass org/bson/codecs/configuration/CodecRegistries
+instanceKlass com/mongodb/assertions/Assertions
+instanceKlass org/bson/types/BSONTimestamp
+instanceKlass org/bson/BSONObject
+instanceKlass org/bson/BsonWriter
+instanceKlass org/bson/codecs/IdGenerator
+instanceKlass com/mongodb/DBObjectFactory
+instanceKlass com/mongodb/DBObjectCodec
+instanceKlass org/bson/codecs/CollectibleCodec
+instanceKlass com/mongodb/DBObjectCodecProvider
+instanceKlass com/mongodb/DBRefCodecProvider
+instanceKlass org/bson/codecs/BsonUndefinedCodec
+instanceKlass org/bson/codecs/BsonTimestampCodec
+instanceKlass org/bson/codecs/BsonSymbolCodec
+instanceKlass org/bson/codecs/BsonStringCodec
+instanceKlass org/bson/codecs/BsonRegularExpressionCodec
+instanceKlass org/bson/codecs/BsonObjectIdCodec
+instanceKlass org/bson/codecs/BsonJavaScriptCodec
+instanceKlass org/bson/codecs/BsonMaxKeyCodec
+instanceKlass org/bson/codecs/BsonMinKeyCodec
+instanceKlass org/bson/codecs/BsonDecimal128Codec
+instanceKlass org/bson/codecs/BsonInt64Codec
+instanceKlass org/bson/codecs/BsonInt32Codec
+instanceKlass org/bson/codecs/BsonDoubleCodec
+instanceKlass org/bson/codecs/BsonDBPointerCodec
+instanceKlass org/bson/codecs/BsonDateTimeCodec
+instanceKlass org/bson/codecs/BsonBooleanCodec
+instanceKlass org/bson/codecs/BsonBinaryCodec
+instanceKlass org/bson/codecs/BsonNullCodec
+instanceKlass org/bson/Document
+instanceKlass org/bson/codecs/BsonTypeClassMap
+instanceKlass org/bson/BsonValue
+instanceKlass org/bson/codecs/BsonValueCodecProvider
+instanceKlass org/bson/codecs/AtomicLongCodec
+instanceKlass org/bson/codecs/AtomicIntegerCodec
+instanceKlass org/bson/codecs/AtomicBooleanCodec
+instanceKlass org/bson/codecs/FloatCodec
+instanceKlass org/bson/codecs/ByteArrayCodec
+instanceKlass org/bson/codecs/ShortCodec
+instanceKlass org/bson/codecs/PatternCodec
+instanceKlass org/bson/codecs/ByteCodec
+instanceKlass org/bson/codecs/UuidCodec
+instanceKlass org/bson/codecs/OverridableUuidRepresentationCodec
+instanceKlass org/bson/types/Symbol
+instanceKlass org/bson/codecs/SymbolCodec
+instanceKlass org/bson/codecs/StringCodec
+instanceKlass org/bson/codecs/CharacterCodec
+instanceKlass org/bson/types/ObjectId
+instanceKlass org/bson/codecs/ObjectIdCodec
+instanceKlass org/bson/codecs/BigDecimalCodec
+instanceKlass org/bson/codecs/Decimal128Codec
+instanceKlass org/bson/types/Code
+instanceKlass org/bson/codecs/CodeCodec
+instanceKlass org/bson/types/MaxKey
+instanceKlass org/bson/codecs/MaxKeyCodec
+instanceKlass org/bson/types/MinKey
+instanceKlass org/bson/codecs/MinKeyCodec
+instanceKlass org/bson/codecs/LongCodec
+instanceKlass org/bson/codecs/IntegerCodec
+instanceKlass org/bson/codecs/DoubleCodec
+instanceKlass org/bson/codecs/DateCodec
+instanceKlass org/bson/codecs/BooleanCodec
+instanceKlass org/bson/types/Binary
+instanceKlass org/bson/codecs/BinaryCodec
+instanceKlass org/bson/codecs/Codec
+instanceKlass org/bson/codecs/Decoder
+instanceKlass org/bson/codecs/Encoder
+instanceKlass org/bson/codecs/ValueCodecProvider
+instanceKlass org/bson/codecs/configuration/CodecProvider
+instanceKlass org/bson/Transformer
+instanceKlass org/springframework/boot/autoconfigure/mongo/MongoClientFactory$$Lambda$596
+instanceKlass com/mongodb/MongoDriverInformation
+instanceKlass com/mongodb/client/MongoClients
+instanceKlass org/springframework/boot/autoconfigure/mongo/MongoClientFactorySupport
+instanceKlass org/springframework/boot/autoconfigure/mongo/MongoClientSettingsBuilderCustomizer
+instanceKlass de/flapdoodle/embed/process/io/StreamToLineProcessor
+instanceKlass de/flapdoodle/embed/process/io/LogWatchStreamProcessor
+instanceKlass sun/nio/fs/WindowsChannelFactory$2
+instanceKlass com/sun/jna/Function$PostCallRead
+instanceKlass com/sun/jna/NativeMappedConverter
+instanceKlass com/sun/jna/Library$Handler$FunctionInfo
+instanceKlass com/sun/jna/platform/win32/WinNT$OVERLAPPED_COMPLETION_ROUTINE
+instanceKlass com/sun/jna/win32/StdCallLibrary$StdCallCallback
+instanceKlass com/sun/jna/NativeLibrary
+instanceKlass com/sun/jna/Library$Handler
+instanceKlass com/sun/jna/Native$7
+instanceKlass com/sun/jna/Native$2
+instanceKlass com/sun/jna/Structure$FFIType$FFITypes
+instanceKlass com/sun/jna/Native$ffi_callback
+instanceKlass com/sun/jna/PointerType
+instanceKlass com/sun/jna/NativeMapped
+instanceKlass com/sun/jna/WString
+instanceKlass com/sun/jna/CallbackProxy
+instanceKlass com/sun/jna/Callback
+instanceKlass com/sun/jna/Structure$ByValue
+instanceKlass com/sun/jna/FromNativeContext
+instanceKlass com/sun/jna/ToNativeContext
+instanceKlass com/sun/jna/Structure
+instanceKlass com/sun/jna/Pointer
+instanceKlass java/io/DeleteOnExitHook$1
+instanceKlass java/io/DeleteOnExitHook
+instanceKlass java/io/File$TempDirectory
+instanceKlass com/sun/jna/Platform
+instanceKlass java/lang/ClassLoaderHelper
+instanceKlass com/sun/jna/Native$5
+instanceKlass com/sun/jna/Native$1
+instanceKlass java/io/FilenameFilter
+instanceKlass com/sun/jna/Callback$UncaughtExceptionHandler
+instanceKlass com/sun/jna/Native
+instanceKlass com/sun/jna/Version
+instanceKlass com/sun/jna/win32/W32APIFunctionMapper
+instanceKlass com/sun/jna/win32/W32APITypeMapper$2
+instanceKlass com/sun/jna/DefaultTypeMapper$Entry
+instanceKlass com/sun/jna/win32/W32APITypeMapper$1
+instanceKlass com/sun/jna/TypeConverter
+instanceKlass com/sun/jna/ToNativeConverter
+instanceKlass com/sun/jna/FromNativeConverter
+instanceKlass com/sun/jna/DefaultTypeMapper
+instanceKlass com/sun/jna/TypeMapper
+instanceKlass com/sun/jna/win32/W32APIOptions
+instanceKlass com/sun/jna/FunctionMapper
+instanceKlass com/sun/jna/platform/win32/Kernel32
+instanceKlass com/sun/jna/platform/win32/WinNT
+instanceKlass com/sun/jna/platform/win32/WinBase
+instanceKlass com/sun/jna/platform/win32/BaseTSD
+instanceKlass com/sun/jna/platform/win32/WinDef
+instanceKlass com/sun/jna/win32/StdCallLibrary
+instanceKlass com/sun/jna/win32/StdCall
+instanceKlass com/sun/jna/AltCallingConvention
+instanceKlass com/sun/jna/Library
+instanceKlass com/sun/jna/platform/win32/WinError
+instanceKlass org/apache/commons/lang3/math/NumberUtils
+instanceKlass org/apache/commons/lang3/SystemUtils
+instanceKlass de/flapdoodle/embed/process/runtime/Processes
+instanceKlass java/lang/ProcessImpl$2
+instanceKlass java/lang/Process
+instanceKlass java/lang/ProcessBuilder
+instanceKlass de/flapdoodle/embed/process/runtime/ProcessControl
+instanceKlass de/flapdoodle/embed/process/runtime/NUMA
+instanceKlass de/flapdoodle/embed/mongo/runtime/AbstractMongo
+instanceKlass org/springframework/util/ClassUtils$$Lambda$595
+instanceKlass de/flapdoodle/embed/process/runtime/AbstractProcess
+instanceKlass sun/nio/fs/WindowsFileCopy
+instanceKlass java/nio/file/CopyOption
+instanceKlass sun/nio/fs/BasicFileAttributesHolder
+instanceKlass sun/nio/fs/WindowsDirectoryStream$WindowsDirectoryIterator
+instanceKlass sun/nio/fs/WindowsFileAttributes
+instanceKlass java/nio/file/attribute/DosFileAttributes
+instanceKlass java/nio/file/attribute/BasicFileAttributes
+instanceKlass sun/nio/fs/WindowsDirectoryStream
+instanceKlass java/nio/file/DirectoryStream
+instanceKlass java/nio/file/Files$AcceptAllFilter
+instanceKlass java/nio/file/DirectoryStream$Filter
+instanceKlass java/net/NetworkInterface$2
+instanceKlass java/net/DefaultInterface
+instanceKlass java/net/InterfaceAddress
+instanceKlass java/net/NetworkInterface$1
+instanceKlass java/net/NetworkInterface
+instanceKlass sun/security/provider/ByteArrayAccess
+instanceKlass sun/security/provider/SeedGenerator$1
+instanceKlass sun/security/provider/SeedGenerator
+instanceKlass sun/security/provider/SecureRandom$SeederHolder
+instanceKlass sun/security/jca/GetInstance$Instance
+instanceKlass java/security/MessageDigestSpi
+instanceKlass sun/security/jca/GetInstance
+instanceKlass java/security/SecureRandomSpi
+instanceKlass java/security/Provider$UString
+instanceKlass java/security/Provider$Service
+instanceKlass sun/security/provider/NativePRNG$NonBlocking
+instanceKlass sun/security/provider/NativePRNG$Blocking
+instanceKlass sun/security/provider/NativePRNG
+instanceKlass sun/security/provider/SunEntries$1
+instanceKlass sun/security/provider/SunEntries
+instanceKlass sun/security/jca/ProviderConfig$2
+instanceKlass sun/security/jca/ProviderList$2
+instanceKlass sun/misc/FDBigInteger
+instanceKlass java/security/Provider$EngineDescription
+instanceKlass java/security/Provider$ServiceKey
+instanceKlass sun/security/jca/ProviderConfig
+instanceKlass sun/security/jca/ProviderList
+instanceKlass sun/security/jca/Providers
+instanceKlass java/util/UUID$Holder
+instanceKlass java/nio/file/SimpleFileVisitor
+instanceKlass de/flapdoodle/embed/process/io/file/Files
+instanceKlass de/flapdoodle/embed/process/extract/ExtractedFileSets
+instanceKlass de/flapdoodle/embed/process/config/store/FileSet$Entry
+instanceKlass de/flapdoodle/embed/process/config/store/FileSet$Builder
+instanceKlass de/flapdoodle/embed/process/config/store/FileSet
+instanceKlass de/flapdoodle/embed/process/extract/IExtractionMatch
+instanceKlass de/flapdoodle/embed/process/extract/FilesToExtract
+instanceKlass de/flapdoodle/embed/process/extract/ImmutableExtractedFileSet$Builder
+instanceKlass de/flapdoodle/embed/process/extract/ImmutableExtractedFileSet
+instanceKlass de/flapdoodle/embed/process/store/ExtractedArtifactStore$1
+instanceKlass de/flapdoodle/embed/process/extract/ArchiveIsFileExtractor
+instanceKlass org/apache/commons/compress/compressors/bzip2/BZip2Constants
+instanceKlass de/flapdoodle/embed/process/extract/AbstractExtractor$ArchiveWrapper
+instanceKlass org/apache/commons/compress/utils/InputStreamStatistics
+instanceKlass de/flapdoodle/embed/process/extract/IArchiveEntry
+instanceKlass de/flapdoodle/embed/process/extract/AbstractExtractor
+instanceKlass de/flapdoodle/embed/process/extract/IExtractor
+instanceKlass de/flapdoodle/embed/mongo/Paths$1
+instanceKlass sun/nio/fs/WindowsPath$1
+instanceKlass java/nio/file/Paths
+instanceKlass de/flapdoodle/embed/process/store/LocalArtifactStore
