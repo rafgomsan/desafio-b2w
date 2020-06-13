@@ -1,4 +1,3 @@
-
 [[initial]]
 == Install MongoDB 
 
@@ -99,7 +98,7 @@ Date: Mon, 03 Mar 2014 15:08:46 GMT
 ----
 
 - `-i`: Ensures you can see the response message including the headers. The URI of the
-newly created `Planeta` is shown.
+newly created `Person` is shown.
 - `-X POST`: Signals this a `POST` used to create a new entry.
 - `-H "Content-Type:application/json"`: Sets the content type so the application knows the
 payload contains a JSON object.
@@ -245,8 +244,8 @@ c:\> curl http://localhost:8080/planeta/search/findById?_id=53149b8e3004990b1af9
 ----
 ====
 
-Because you defined it to return `List<Planeta>` in the code, it returns all of the
-results. If you had defined it to return only `Planeta`, it picks one of the `Planeta`
+Because you defined it to return `List<Person>` in the code, it returns all of the
+results. If you had defined it to return only `Person`, it picks one of the `Person`
 objects to return. Since this can be unpredictable, you probably do not want to do that
 for queries that can return multiple entries.
 
@@ -276,11 +275,10 @@ The following example uses a `PATCH` call:
 ====
 [source,bash]
 ----
-$ curl -X PATCH -H "Content-Type:application/json" -d "{ \"firstName\": \"Bilbo Jr.\" }" http://localhost:8080/planeta/53149b8e3004990b1af9f229
+$ curl -X PATCH -H "Content-Type:application/json" -d "{ \"name\": \"BetaPlanet\" }" http://localhost:8080/planeta/53149b8e3004990b1af9f229
 $ curl http://localhost:8080/planeta/53149b8e3004990b1af9f229
 {
-  "firstName" : "Bilbo Jr.",
-  "lastName" : "Baggins",
+  "name" : "BetaPlanet",
   "_links" : {
     "self" : {
       "href" : "http://localhost:8080/planeta/53149b8e3004990b1af9f229"
