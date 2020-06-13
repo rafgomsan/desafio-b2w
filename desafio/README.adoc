@@ -275,11 +275,10 @@ The following example uses a `PATCH` call:
 ====
 [source,bash]
 ----
-$ curl -X PATCH -H "Content-Type:application/json" -d "{ \"firstName\": \"Bilbo Jr.\" }" http://localhost:8080/planeta/53149b8e3004990b1af9f229
+$ curl -X PATCH -H "Content-Type:application/json" -d "{ \"name\": \"BetaPlanet\" }" http://localhost:8080/planeta/53149b8e3004990b1af9f229
 $ curl http://localhost:8080/planeta/53149b8e3004990b1af9f229
 {
-  "firstName" : "Bilbo Jr.",
-  "lastName" : "Baggins",
+  "name" : "BetaPlanet",
   "_links" : {
     "self" : {
       "href" : "http://localhost:8080/planeta/53149b8e3004990b1af9f229"
