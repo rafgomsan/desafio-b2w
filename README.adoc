@@ -9,7 +9,7 @@ You can find more installation options at https://docs.mongodb.org/manual/instal
 
 After installing MongoDB and let the defult options, it will start as Windows Service.
 
-== Test the Application
+== Testing the Application
 
 Install curl or postman tools.
 
@@ -222,6 +222,8 @@ c:\> curl http://localhost:8080/planeta/search/findByName?name=PitzzaPlanet
 }
 ----
 ====
+
+To use the `findById` query, run the following  command:
 
 ====
 [source,bash]
